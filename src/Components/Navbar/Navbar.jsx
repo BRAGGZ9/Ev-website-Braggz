@@ -1,9 +1,10 @@
 import './Navbar.css'
 
+
 const Navbar = () => {
   return (
     <div className='nav'>
-      <div className='nav-logo'>EV-olution</div>
+      <div className='nav-logo'><a href='#'>EV-olution</a></div>
         <ul className='Navbar'>
           <li>Home</li>
           <li>Explore</li>

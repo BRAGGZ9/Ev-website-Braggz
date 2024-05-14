@@ -9,14 +9,26 @@
     font-family: Outfit;
     font-size: 42px;
     font-weight: 500;
+    cursor: pointer;
+}
+.nav-logo a{
+    text-decoration: none;
+    color: white;
+}
+.nav-logo a:hover{
+    color:black;
 }
 
 .Navbar{
     display: flex;
     align-items: center;
     list-style: none;
+    cursor: pointer;
     font-size: 18px;
     gap: 90px;
+}
+.Navbar :hover{
+    color: black;
 }
 
 .nav-contact{
@@ -24,4 +36,8 @@
     padding: 10px 38px;
     background: #fff;
     color: #262626;
+}
+
+.nav-contact:hover{
+    cursor: pointer;
 }
